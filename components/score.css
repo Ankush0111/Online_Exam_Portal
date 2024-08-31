@@ -1,0 +1,50 @@
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .scores ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: wheat;
+  }
+  
+  .scores li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

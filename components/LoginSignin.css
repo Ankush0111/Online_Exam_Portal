@@ -1,0 +1,149 @@
+.body{
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(210, 189, 157);
+    width: 400px; /* Adjusted width for better visibility */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    /*border-bottom: 2px solid #717191;*/
+    transition: border-bottom-color 0.3s ease;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Remove border */
+    cursor: pointer;
+    border-radius: 0px;
+    border-bottom: 2px solid #ccc; /* Add border-bottom */
+    outline: none; /* Remove outline */
+    transition: border-bottom-color 0.3s ease;
+}
+
+.input input:hover,
+.input input:focus {
+    border-bottom-color: #0056b3; /* Highlight border-bottom on hover and focus */
+}
+
+.forget_password {
+    margin-top: 10px;
+}
+
+.forget_password span {
+    color: blue;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    justify-content: center; /* Center align buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Add space above the buttons */
+}
+
+.btns input[type="button"] {
+    background-color: rgb(69, 169, 208); /* Blue background color */
+    color: black; /* Black text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100px;
+    height: 40px;
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+}
+
+.btns input[type="submit"] {
+    background-color: rgb(69, 169, 208); /* Blue background color */
+    color: black; /* Black text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100px;
+    height: 40px;
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+}
+
+.btns input[type="button"]:hover {
+    background-color: #0056b3; 
+}
+
+.btns input[type="button"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.btns input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+.btns input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.back-button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .back-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #007BB5;
+  }

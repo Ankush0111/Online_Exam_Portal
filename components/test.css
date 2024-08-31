@@ -1,0 +1,103 @@
+/* Styles for the MCQ Test Page */
+.mcq-test {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+    background: rgba(191, 172, 172, 0.5); /* Semi-transparent background for the container */
+    backdrop-filter: blur(10px); /* Blur effect for the glass background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .mcq-test h2 {
+    text-align: center;
+    color: aquamarine;
+  }
+  
+  .mcq-test label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .mcq-test input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .mcq-test .question {
+    margin-bottom: 20px;
+  }
+  
+  .mcq-test .question h4 {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .mcq-test .question label {
+    display: block;
+    padding: 5px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .mcq-test .question input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .mcq-test .question label:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .mcq-test button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .mcq-test button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mcq-test h3 {
+    text-align: right;
+    color: #e74c3c;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add responsive design */
+  @media (max-width: 600px) {
+    .mcq-test {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .mcq-test h2 {
+      font-size: 24px;
+    }
+  
+    .mcq-test button {
+      font-size: 14px;
+    }
+  
+    .mcq-test h3 {
+      font-size: 16px;
+    }
+  }
+  
